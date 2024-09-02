@@ -34,7 +34,7 @@ const UploadImage = ({reloadEffect}) => {
             const res = await axios.post(url,formData,config);
 
             toast.success("image uploaded")
-            await uploadImageHash(res.data.ipfsHash)  
+            await uploadImageHash(res.data.ifsHash)  
             setLoading(false)
             reloadEffect()
         } catch (error) {
