@@ -34,7 +34,7 @@ const UploadImage = ({reloadEffect}) => {
             const res = await axios.post(url,formData,config);
 
             toast.success("image uploaded")
-            await uploadImageHash(res.data.ifsHash)  
+            await uploadImageHash(res.data.ipfsHash)  
             setLoading(false)
             reloadEffect()
         } catch (error) {
@@ -48,7 +48,7 @@ const UploadImage = ({reloadEffect}) => {
     return ( 
     <div className="h-full w-screen flex flex-col justify-center items-center gap-6">
     <p className="font-semibold md:text-[24px]">
-      Upload file with Web3s Security
+      Upload file/picture with Web3s Security
     </p>
     <div className="w-full flex justify-center items-center">
       <input

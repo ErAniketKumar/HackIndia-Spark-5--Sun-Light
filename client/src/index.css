@@ -17,6 +17,7 @@
   position: relative;
 }
 
+
 @keyframes gradientAnimation {
   0% {
     background-position: left;
