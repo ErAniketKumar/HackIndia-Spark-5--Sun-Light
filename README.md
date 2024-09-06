@@ -1,4 +1,4 @@
-# Crypted IPFS Vault
+# Photo Secure WebApp IPFS Vault
 
 This project implements a crypted IPFS vault using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with blockchain technology. The vault allows users to securely store files on the IPFS network while encrypting the data and managing access through blockchain-based and JWT authentication.
 
@@ -37,4 +37,4 @@ This project implements a crypted IPFS vault using the MERN (MongoDB, Express.js
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/crypted-ipfs-vault.git
+   git clone https://github.com/yourusername/ani-photo-vault.git
